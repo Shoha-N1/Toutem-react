@@ -39,7 +39,7 @@ export default function Footer() {
                                 <a href="/">Our Values</a>
                                 <a href="/">Sustainability</a>
                                 <a href="/">Brand Ambassadorsy</a>
-                                <a href="/">Fitness Professionals</a>
+                                <a href="/">Fitness Professionals </a>
                             </li>
 
                             <li>
