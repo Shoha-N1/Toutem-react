@@ -1,0 +1,90 @@
+
+.widget-head {
+    background-image: url(../../img/Flower.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+    margin-bottom: 1px;
+}
+// fff
+
+.widget-header {
+    background-image: url(../../img/Flower-2.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20%;
+    margin-bottom: 1px;
+}
+
+
+// fff
+.boss-widget {
+    display: flex;
+}
+
+.big-widget {
+    margin-left: -187px;
+    margin-right: 10px;
+}
+
+.big-widget h2 {
+    color: #5FD788;
+    font-size: 50px;
+    margin: 0;
+    margin-left: 178px;
+    letter-spacing: 1px;
+    line-height: 130px;
+    margin-top: 10%;
+    padding-top: 12%;
+    margin-right: 196px;
+}
+
+.dark {
+    text-decoration: none;
+    color: white;
+    background-color: #5FD788;
+    border: 1px solid #5FD788;
+    border-radius: 8px;
+    padding: 8px 9px;
+    margin-left: 28%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    width: 270px;
+    text-align: center;
+}
+
+
+
+.ul-button {
+    margin: 0;
+    display: flex;
+    margin-top: 77px;
+    margin-left: 338px;
+}
+
+.ul-button button {
+    border-radius: 50%;
+    padding: 4px;
+    border: 1px solid grey; 
+    
+}
+
+.mil {
+    background-color: grey;
+}
+
+.pok {
+    background-color: #5FD788;
+}
+
+.ul-button li {
+    list-style: none;
+    width: 21px;
+}
+
+
+.card-1 {
+    max-width: 400px;
+}
+
+.card-2 {
+    max-width: 400px;
+}

@@ -1,0 +1,81 @@
+
+.boss {
+    padding: 11px 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+    left: 0;
+    top: 0;
+}
+
+.palla span {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    margin: 0;
+    text-decoration: none;
+    color: #1F2937;
+}
+
+.navigation ul {
+    display: flex;
+    margin: 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.header-inner .navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li a {
+    font-family: "Fraunces";
+}
+
+.lip a {
+    width: 69px;
+}
+
+.header-inner h1 {
+    height: 6px;
+    font-size: 16px;
+    margin-top: 19px;
+}
+
+.header-inner span {
+    margin-top: 20px;
+    margin-left: 12px;
+    height: 0px;
+}
+
+.palla {
+    display: flex;
+}
+
+.ulation {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.ulation li {
+    margin-left: 10px;
+    padding: 0;
+}
+
+.dop {
+    display: flex;
+    margin-left: 69%;
+}
+
+

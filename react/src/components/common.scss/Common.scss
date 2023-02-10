@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h3, h4 { 
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c'
+}
+
+p {
+   font-family: 'M PLUS Rounded 1c'
+}
+
+h2 {
+   font-family: 'M PLUS Rounded 1c';
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+
+
+  @media (max-width: 998px) {
+    .box-1 ul{
+        flex-wrap: wrap;
+    }
+
+    .boss-widget {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-wrap: wrap;
+
+        img {
+            margin-bottom: 3%;
+        }
+    }
+
+    .dark {
+        margin-bottom: 15%;
+    }
+
+    .post ul {
+        flex-wrap: wrap;
+    }
+
+    .post ul li {
+        margin-top: 13%;
+    }
+
+    .navbarbek ul {
+        flex-wrap: wrap;
+    }
+
+    .foot-p {
+        margin-left: 10%;
+    }
+  }
+
+
+
+  @media (max-width: 768px) {
+
+    .box-1 ul{
+        flex-wrap: wrap;
+    }
+
+    .spayk {
+        flex-wrap: wrap;
+    }
+
+    .boo h2 {
+        text-align: center;
+    }
+
+    .boo p {
+        text-align: center;
+    }
+
+    .navigation ul {
+        display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    background-color: #fff;
+    height: 100vh;
+    top: 0;
+    width: 200px;
+    z-index: 1;
+    top: -40px;
+    transform: translateX(-140%);
+    transition: 0.5s ease;
+    }
+
+    .navigation {
+        position: relative;
+    }
+  }
+
+  .navigation ul li {
+    margin-top: 12px;
+  }
+
+
+
+  .hamburger {
+    align-items: center;
+    justify-content: space-between;
+     margin-top: 10px;
+     
+    @media (max-width: 768px) {
+      &::after,
+      &::before {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 20px;
+        background-color: black;
+        margin: 5px 0;
+        margin-left: 80%;
+      }
+    }
+   
+  }
+
+  input[type="checkbox"]:checked + .navigation ul {
+    transform: translateX(-17%);
+    
+  }

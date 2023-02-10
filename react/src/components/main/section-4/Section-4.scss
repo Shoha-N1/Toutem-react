@@ -1,0 +1,42 @@
+
+.tip-mega {
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15%;
+    margin-left: 2%;
+    background-color: #5FD788;
+    padding: 4.1% 2%;
+    max-width: 100%;
+    background-image: url(../../img/Texture_2_.png);
+}
+
+.desert {
+    max-width: 45%;
+    margin-left: 20px;
+    // margin-left: 687px;
+    // margin-top: -370px;
+
+    img {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+.tip h2 {
+    margin: 0;
+    font-size: 45px;
+    width: 550px;
+    line-height: 120%;
+    color: white;
+}
+
+.tip-boss {
+    display: flex;
+}
+
+.modi {
+    margin-left: 3px;
+    margin-top: 55px;
+    background-color: white;
+    color: black;
+}
